@@ -42,3 +42,35 @@ console.log(typeof score);
  let convertIntoNum8 = String(score9)
  console.log(typeof convertIntoNum8, convertIntoNum8)
 
+// ************************************ Operations *******************************************************
+
+let value =3;
+let negValue =-value
+console.log(negValue)
+
+console.log(2+2, 2-2,2*2,2/2,2%2,2**2,2^2)
+let str1 = "Mahima";
+let str2 = " Soni";
+console.log(str1+str2)
+
+//if start with String, then all coming numbers are concatenate but not addition opeations
+console.log("1"+2+3+4)
+
+//if start with number, then all coming numbers are perform addition and
+//  concatinate if any string coming and after that string only concatenation not addtitio 
+console.log(1+2+4+5+"3"+4+5)
+
+//others
+
+console.log(true)
+console.log(+true)
+console.log(+"")
+
+let num1=num2=num3=45;
+console.log(num1,num2,num3)
+
+//prefix value increment imediatly, postfix value inc after uses
+
+let gameCounter = 45;
+console.log(gameCounter++)
+console.log(++gameCounter)
